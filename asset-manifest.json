@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/farmacovigia-frontend/static/css/main.518e6cd2.chunk.css",
-    "main.js": "/farmacovigia-frontend/static/js/main.4e422652.chunk.js",
-    "main.js.map": "/farmacovigia-frontend/static/js/main.4e422652.chunk.js.map",
+    "main.js": "/farmacovigia-frontend/static/js/main.50aa4aee.chunk.js",
+    "main.js.map": "/farmacovigia-frontend/static/js/main.50aa4aee.chunk.js.map",
     "runtime-main.js": "/farmacovigia-frontend/static/js/runtime-main.cce27536.js",
     "runtime-main.js.map": "/farmacovigia-frontend/static/js/runtime-main.cce27536.js.map",
     "static/css/2.03ebe89f.chunk.css": "/farmacovigia-frontend/static/css/2.03ebe89f.chunk.css",
@@ -28,6 +28,6 @@
     "static/css/2.03ebe89f.chunk.css",
     "static/js/2.33326496.chunk.js",
     "static/css/main.518e6cd2.chunk.css",
-    "static/js/main.4e422652.chunk.js"
+    "static/js/main.50aa4aee.chunk.js"
   ]
 }
