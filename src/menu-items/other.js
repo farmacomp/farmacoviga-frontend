@@ -18,7 +18,7 @@ export const other = {
             id: 'documentation',
             title: 'Documentation',
             type: 'item',
-            url: 'https://codedthemes.gitbook.io/berry/',
+            url: 'https://github.com/farmacomp/',
             icon: icons['IconHelp'],
             external: true,
             target: true

@@ -18,13 +18,12 @@ const MainRoutes = () => {
     const location = useLocation();
 
     return (
-        <Route path={['/dashboard/default', '/tweets', '/gtrends']}>
+        <Route path={[process.env.PUBLIC_URL + '/', process.env.PUBLIC_URL + '/tweets', process.env.PUBLIC_URL + '/gtrends']}>
             <MainLayout>
                 <Switch location={location} key={location.pathname}>
-                    <Route path="/dashboard/default" component={DashboardDefault} />
-
-                    <Route path="/tweets" component={Tweets} />
-                    <Route path="/gtrends" component={Gtrends} />
+                    <Route path={process.env.PUBLIC_URL + '/tweets'} component={Tweets} />
+                    <Route path={process.env.PUBLIC_URL + '/gtrends'} component={Gtrends} />
+                    <Route path={process.env.PUBLIC_URL + '/'} component={DashboardDefault} />
                 </Switch>
             </MainLayout>
         </Route>

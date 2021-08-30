@@ -18,7 +18,7 @@ export const utilities = {
             id: 'util-typography',
             title: 'Twitter',
             type: 'item',
-            url: '/tweets',
+            url: '/farmacovigia-frontend/tweets',
             icon: icons['IconBrandTwitter'],
             breadcrumbs: false
         },
@@ -26,7 +26,7 @@ export const utilities = {
             id: 'util-color',
             title: 'Google Trends',
             type: 'item',
-            url: '/gtrends',
+            url: '/farmacovigia-frontend/gtrends',
             icon: icons['IconBrandGoogle'],
             breadcrumbs: false
         }
